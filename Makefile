@@ -1,1 +1,2 @@
-g++ -I Eigen my_program.cpp -o my_program 
+all:
+	g++ -I eigen main.cpp -o prog
